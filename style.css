@@ -29,7 +29,10 @@ body{
 
 @media (max-width: 768px){
     .nav-item{
-        background-color: rgba(48, 47, 136);
+        background-color: rgba(48, 47, 136, 0.8);
+    }
+    #login{
+        color: #ffffff;
     }
     .navbar-light .navbar-nav .nav-item .nav-link{
         color: #FFFFFF;
@@ -59,9 +62,7 @@ body{
 
         text-align: center;
     }
-    iframe{
-       display: none;
-    }
+    
     
 }
 
