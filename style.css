@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+body{
+    padding: 0;
+    margin: 0;
+   font-family: poppins;
+   
+}
+
+.navbar .navbar-brand{
+    color: #0045FF;;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    height: 50px;
+}
+.navbar .navbar-brand span{
+    color: #0045FF;;
+    font-weight: 1000;
+    font-size: 24px;
+}
+.navbar-light .navbar-nav .nav-item .nav-link{
+    font-size: 15px;
+    color: #152C5B;
+    margin: 0 10px;
+}
+ #login{
+   color: #0045FF;
+    font-weight: 600;
+}
+
+@media (max-width: 768px){
+    .nav-item{
+        background-color: rgba(48, 47, 136);
+    }
+    .navbar-light .navbar-nav .nav-item .nav-link{
+        color: #FFFFFF;
+    }
+    .navbar-light .navbar-nav .nav-item .nav-link:hover{
+        border-top: 0rem;
+    }
+    .navbar-light .navbar-nav .nav-item .nav-link:active{
+        border-top: 0rem;
+    }
+    .navbar-light .navbar-nav .nav-item .nav-link:focus{
+        border-top: 0rem;
+    }
+}
+
+.navbar-nav{
+    text-align: center;
+}
+@media (max-width: 560px){
+    h1{
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 3.5em;
+    }
+    p{
+        font-size: 1.0rem;
+
+        text-align: center;
+    }
+    iframe{
+       display: none;
+    }
+    
+}
+
+
+h1{
+    text-align: center;
+    color: #152C5B;
+    margin-top: 3.5em;
+}
+p{
+    color: #152C5B;
+    margin-top: 1.5em;
+    text-align: center;
+}
+.search2{
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #0045FF;
+}
+iframe{
+   margin-left: 10rem;
+   border-radius: 20px;
+}
